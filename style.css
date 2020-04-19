@@ -19,12 +19,17 @@ ul,ol{
 }
 
 body{
-    min-width: 500px;
-    background-color: #e0eeee;
+    min-width: 0px;
+    /* min-width: 500px; */
+    background-color: rgba(224,238,238,1)
 }
 
 .profileBody{
-    display: inline-block;
+    display: inline-block+ block;
+    height: 590px;
+    margin-left: 55px;
+    margin-top: 6px;
+    background-color: rgba(255,255,255,1);
 }
 
 #name h1{
